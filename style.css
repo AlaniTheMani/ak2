@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    }
+    
+    body{
+        margin: 0;
+        font-family: arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    header h1{
+        font-size: 55px;
+    }
+    
+    
+    #headerLogo{
+        display: inline;
+    }
+    
+    nav ul{
+        margin: 30;
+        padding: 0;
+        list-style: none;
+        background-color: aqua;
+    }
+    
+    header nav{
+        overflow: auto;
+    }
+    
+    header li{
+        display: inline-block;
+        margin-left: 15px;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    main{
+        width: 70%;
+        float: left;
+    }
+    
+    aside{
+        width: 30%;
+    }
+    
+    header, main, aside, footer{
+        padding: 30px;
+    }
